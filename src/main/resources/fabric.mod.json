@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "nofontshell",
+	"version": "${version}",
+	"name": "NoFontShell",
+	"description": "Defensive TrueType (.ttf) font validator, threat classifier, client commands, and safe fallback protection against malicious local and server resource packs (FreeType / minecraft2shell mitigation).",
+	"authors": [
+		"tinkoprof"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/nofontshell/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			{
+				"value": "dev.tinkoprof.nofontshell.NoFontShellMod",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"nofontshell.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*"
+	}
+}

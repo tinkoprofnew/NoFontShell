@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "dev.tinkoprof.nofontshell.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"ReloadableResourceManagerMixin",
+		"DownloadedPackSourceMixin",
+		"TrueTypeGlyphProviderDefinitionMixin",
+		"TrueTypeGlyphProviderMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
