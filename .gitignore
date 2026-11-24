@@ -1,11 +1,11 @@
 .gradle/
 .kotlin/
-build/
-out/
-classes/
-logs/
-run/
-config/
+/build/
+/out/
+/classes/
+/logs/
+/run/
+/config/
 
 *.launch
 .idea/
@@ -14,7 +14,7 @@ config/
 *.iws
 .settings/
 .vscode/
-bin/
+/bin/
 .classpath
 .project
 
